@@ -21,7 +21,7 @@
 	padding: 10px;
 	}
 }
-.mutuelle {
+#mutuelle {
 	font-family: Helvetica;
 	color: black;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
@@ -30,8 +30,19 @@
 	width: 200px;
 	vertical-align: middle;
 	}
+.mutuelle {
+	padding: 4em;	
+}
 }
 .feature img {
 	margin-bottom: 2em;
 	width: 120px;
+}
+.testimonial {
+	padding: 40px;
+	margin: 10px;
+	img {
+	width: 30%;
+	margin: O auto;
+	}
 }

@@ -1,0 +1,6 @@
+- name: manu
+  content: Super pratique ! J'ai loué une Harley Davidson pour mes 40 ans et la ballade fut magique !
+  image_file: manu.png
+- name: lio
+  content: Enfin un service de location de moto. Best idea ever pour les amateurs de 2 roues. 
+  image_file: lio.png
