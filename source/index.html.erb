@@ -5,43 +5,50 @@ title: Ridr - Louez une moto vintage
 ---
 
 <div id="wrapper">
-  <h1><strong>ROULEZ À 2 ROUES, PARTOUT</strong></h1>
-  <h2><strong>Location de motos vintage entre particuliers</strong></h2>
-</div>
+  <div class="pullDown">
+    <h1><strong>ROULEZ À 2 ROUES, PARTOUT</strong></h1>
+    <h2><strong>Location de motos vintage entre particuliers</strong></h2>
+    <% link_to "/#feature" do %>
 
+<div class="padded"></div>
+                <i class="fa fa-chevron-down fa-3x pulse"></i>
+               <% end %>
+  </div>
+</div>
 <div class="padded-xs"></div>
 
-<div class="container text-center feature">
-  <h3><strong>COMMENT ÇA MARCHE ?</strong></h3>
-  <br>
-    <div class="row">
-      <div class="col-sm-6 col-md-3">
-        <%= image_tag "search.svg" %> 
-        <p>
-        Choisissez votre <strong>moto vintage</strong> des années 1950 aux années 1990 chez un particulier près de chez vous.
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <%= image_tag "calendar.svg"%>
-        <p>
-        Demandez la moto pour <strong>la durée de votre choix </strong> (pour un weekend entre motard ou une balade en solo). 
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <%= image_tag "shield.svg"%>
-        <p>
-        <strong>L'assurance tous risques </strong> couvre les locations pour rouler l'esprit tranquille.
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <%= image_tag "sidecar.svg"%>
-        <p>
-        Récupérez la moto : vous n’avez plus qu’à prendre le gidon et découvrir les plus beaux <strong> itinéraires de France </strong>
-        </p>
-      </div> 
-    </div>  
+<div id="feature">
+  <div class="container text-center feature">
+    <h3><strong>COMMENT ÇA MARCHE ?</strong></h3>
+    <br>
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <%= image_tag "search.svg"%> 
+          <p>
+          Choisissez votre <strong>moto vintage</strong> des années 1950 aux années 1990 chez un particulier près de chez vous.
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <%= image_tag "calendar.svg"%>
+          <p>
+          Demandez la moto pour <strong>la durée de votre choix </strong> (pour un weekend entre motard ou une balade en solo). 
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <%= image_tag "shield.svg"%>
+          <p>
+          <strong>L'assurance tous risques </strong> couvre les locations pour rouler l'esprit tranquille.
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <%= image_tag "sidecar.svg"%>
+          <p>
+          Récupérez la moto : vous n’avez plus qu’à prendre le gidon et découvrir les plus beaux <strong> itinéraires de France </strong>
+          </p>
+        </div> 
+      </div>  
+  </div>
 </div>
-
 <div class="padded-xs"></div>
 
 <div class="container text-center">
@@ -112,7 +119,7 @@ title: Ridr - Louez une moto vintage
     <% data.testimonials.each do |testimonial| %>
       <div class="row">
         <div class="col-xs-12 col-sm-6">
-          <div class="testimonial">
+          <div class="testimonial floating">
             <%= image_tag testimonial.image_file, class: "img-circle" %>
             <h3><%= testimonial.name %></h3>
             <p><%= testimonial.content %></p>
