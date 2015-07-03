@@ -1,0 +1,48 @@
+#wrapper {
+	background-image: image-url("background.jpg");
+	height: 800px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	h1 {
+	font-size: 50px;
+	}
+	h2 {
+	font-size: 18px;
+	margin-bottom: 1em; 
+	}
+}
+.thumbnail {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	background: white;
+	img {
+	padding: 10px;
+	}
+}
+#mutuelle {
+	font-family: Helvetica;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+	padding: 4em;
+	img {
+	width: 200px;
+	vertical-align: middle;
+	}
+.mutuelle {
+	padding: 4em;	
+}
+}
+.feature img {
+	margin-bottom: 2em;
+	width: 120px;
+}
+.testimonial {
+	padding: 40px;
+	margin: 10px;
+	img {
+	width: 30%;
+	margin: O auto;
+	}
+}
